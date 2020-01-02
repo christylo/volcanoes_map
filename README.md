@@ -1,2 +1,4 @@
 # volcanoes_map
 Uses python libraries pandas and folium to map volcanoes in the USA on a world map. Volcanoes are pinned on the map with circle markers differentiated by color. If the elevation of the volcano is less than 1000m, the pin is green. If the elevaion is between 1000m and 3000m, the pin is orange. If the elevation of the volcano is anything greater than 3000m, the pin is red. Users can click onto the pins to view the name of the volcano and its elevation from a popup that is created with simple HTML. The popup will also direct the user to a google search of the specific volcano when the name is clicked. 
+
+The world map is also sectioned into countries and differentiated with different colors based on the human population in that country. If the population is less than 10000000 people, the country is green. If it is between 10000000 and 20000000 people, the country is orange. If the population is anything above 20000000 people, the country is red. 
